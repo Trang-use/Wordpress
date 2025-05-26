@@ -22,9 +22,7 @@
 ### 2. Slide Product 
 
    2.1 Mô tả chức năng
-    Sử dụng bloginRevolution Slider để hiển thị các product :
-    
-    1 video nổi bật (hiển thị thumbnail, tiêu đề, mô tả ngắn)
+    Sử dụng bloginRevolution Slider để hiển thị các product 
    
    2.2 Hình ảnh website video demo
      https://www.loom.com/share/95a660b8b2bc4ce598894728a59aa053
