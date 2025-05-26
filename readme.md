@@ -10,4 +10,5 @@ người dùng có thể chỉnh sửa (Edit), cập nhật (Update) hoặc xóa
 - Hình ảnh website
 1 - Trang chủ của web
 
+video demo: https://www.loom.com/share/177a37d342ff47c6aa316b3e21a6169b
 
