@@ -7,7 +7,7 @@
    
    1.2- Trang chủ của web video demo:
 
-    https://www.loom.com/share/177a37d342ff47c6aa316b3e21a6169b
+   https://www.loom.com/share/6dccad2a79144a9bb38cea0bed27544a 
 
    1.3 - Vai trò cụ thể của em trong dự án
    Thiết kế giao diện
@@ -32,11 +32,7 @@
   
    2.3 - Vai trò cụ thể của em trong dự án
     Thiết kế giao diện
-  
-   2.4 -  xử lý backend
-    Backend của video sử dụng các truy vấn WP_Query để lấy dữ liệu bài viết theo từng chuyên mục, xử lý phân loại và hiển thị bài viết nổi bật cùng danh sách liên quan, sau đó render ra giao diện. Các module có 
-    thể mở rộng qua file featured.php.
 
-   2.5 - tích hợp plugin
+   2.4 - tích hợp plugin
     Trong đoạn code bạn gửi, phần tích hợp plugin chính là việc include file featured.php như một module mở rộng. Phần còn lại là xử lý truy vấn bài viết chuẩn WordPress. Nếu muốn tích hợp plugin khác, bạn cần 
     gọi shortcode hoặc hàm của plugin tương ứng.
