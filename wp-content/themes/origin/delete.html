@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Test Page</title>
+
+    <style type="text/css">
+        .tooltip {
+            position: absolute;
+            background: #ddd;
+            border: 1px solid #666;
+            border-radius: 5px;
+            padding: 5px;
+            width: 500px;
+
+        }
+    </style>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+        $(document).ready(function () {
+            $('#nav li a').hover(
+                function () {
+                    var str = $(this).attr('data-tooltip');
+                    $('<p class="tooltip"></p>').text(str).appendTo('body').fadeIn(600);
+                },
+                function () {
+                    $('.tooltip').remove();
+                }).mousemove(function (e) {
+                    var mousex = e.pagX + 20;
+                    var mousey = e.pageY;
+                    $('.tooltip').css({ top: mousey, left: mousex });
+                });
+        });
+    </script>
+</head>
+
+<body>
+    <ul id="nav">
+        <li><a href="#"
+                data-tooltip=" ân trí Bồ Đào Nha khởi đầu vòng loại World Cup 2014 khá thành công khi đánh bại Luxem">Link1</a>
+        </li>
+        <li><a href="#"
+                data-tooltip="Những năm gần đây, hiện tượng quá tải cục bộ ở một số trường học ở thành phố lớn">Link2</a>
+        </li>
+        <li><a href="#"
+                data-tooltip="Hệ lụy của việc này khiến sĩ số lớp học gia tăng. Một số ý kiến cho rằng, lỗi này thuộc về">Link3</a>
+        </li>
+        <li><a href="#"
+                data-tooltip="Cha bỏ rơi từ khi lọt lòng, mẹ bị ung thư qua đời, hai em Phan Thành Lợi và Phan Ngọc Bảo">Link4</a>
+        </li>
+    </ul>
+</body>
+
+</html>
