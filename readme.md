@@ -12,14 +12,14 @@
    1.3 - Vai trò cụ thể của em trong dự án
    Thiết kế giao diện
 
-   1.4 -  xử lý backend
+   1.4 -  Xử lý backend
    Hiển thị các bài viết theo chuyên mục (category) cụ thể, chia thành các khối nội dung như Videos, Featured, JavaScript & jQuery, với 1 bài nổi bật và danh sách liên kết các bài còn lại.
   
-   1.5 - tích hợp plugin
+   1.5 - Tích hợp plugin
    Tích hợp plugin chính là đoạn include 'featured.php', dùng để thêm chức năng nổi bật (featured) vào trang — đóng vai trò như một plugin nội bộ hoặc module mở rộng
 
 
-### 2. Slide video chuyên mục
+### 2. Slide Product 
 
    2.1 Mô tả chức năng
     Video trình bày giao diện một nền tảng chia sẻ nội dung học tập dạng số, với chức năng chính là hiển thị và phân loại các bài học theo chuyên mục, mỗi chuyên mục gồm:
@@ -33,9 +33,9 @@
    2.3 - Vai trò cụ thể của em trong dự án
     Thiết kế giao diện
 
-   2.4 -  xử lý backend
+   2.4 -  Xử lý backend
    Xử dụng các hiệu ứng Smooth Scroll + Active Navigation Highlight
    
-   2.5 - tích hợp plugin
+   2.5 - Tích hợp plugin
     Trong đoạn code bạn gửi, phần tích hợp plugin chính là việc include file featured.php như một module mở rộng. Phần còn lại là xử lý truy vấn bài viết chuẩn WordPress. Nếu muốn tích hợp plugin khác, bạn cần 
     gọi shortcode hoặc hàm của plugin tương ứng.
