@@ -22,7 +22,8 @@
 ### 2. Slide Product 
 
    2.1 Mô tả chức năng
-    Video trình bày giao diện một nền tảng chia sẻ nội dung học tập dạng số, với chức năng chính là hiển thị và phân loại các slide :
+    Sử dụng bloginRevolution Slider để hiển thị các product :
+    
     1 video nổi bật (hiển thị thumbnail, tiêu đề, mô tả ngắn)
    
    2.2 Hình ảnh website video demo
@@ -30,11 +31,7 @@
   
    2.3 - Vai trò cụ thể của em trong dự án
     Thiết kế giao diện
-
-   2.4 -  Xử lý backend
-   Xử dụng các hiệu ứng Smooth Scroll + Active Navigation Highlight
    
-   2.5 - Tích hợp plugin
-   ScrollReveal
-   Khi cuộn xuống, các phần tử như tiêu đề, hình ảnh, và đoạn văn bản lần lượt hiện ra với hiệu ứng trượt nhẹ (slide) và mờ dần (fade in).
-   Đây là kiểu hiệu ứng đặc trưng của ScrollReveal.js
+   2.4 - Tích hợp plugin
+   
+    Tích hợp blogin Revolution Slider
