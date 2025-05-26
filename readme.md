@@ -33,6 +33,9 @@
    2.3 - Vai trò cụ thể của em trong dự án
     Thiết kế giao diện
 
-   2.4 - tích hợp plugin
+   2.4 -  xử lý backend
+   Xử dụng các hiệu ứng Smooth Scroll + Active Navigation Highlight
+   
+   2.5 - tích hợp plugin
     Trong đoạn code bạn gửi, phần tích hợp plugin chính là việc include file featured.php như một module mở rộng. Phần còn lại là xử lý truy vấn bài viết chuẩn WordPress. Nếu muốn tích hợp plugin khác, bạn cần 
     gọi shortcode hoặc hàm của plugin tương ứng.
