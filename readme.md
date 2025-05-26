@@ -22,10 +22,8 @@
 ### 2. Slide Product 
 
    2.1 Mô tả chức năng
-    Video trình bày giao diện một nền tảng chia sẻ nội dung học tập dạng số, với chức năng chính là hiển thị và phân loại các bài học theo chuyên mục, mỗi chuyên mục gồm:
+    Video trình bày giao diện một nền tảng chia sẻ nội dung học tập dạng số, với chức năng chính là hiển thị và phân loại các slide :
     1 video nổi bật (hiển thị thumbnail, tiêu đề, mô tả ngắn)
-    Danh sách bài học liên quan (liệt kê tiêu đề dạng danh sách)
-    Các chuyên mục ví dụ: Videos, JavaScript, PHP Videos
    
    2.2 Hình ảnh website video demo
      https://www.loom.com/share/95a660b8b2bc4ce598894728a59aa053
@@ -37,5 +35,6 @@
    Xử dụng các hiệu ứng Smooth Scroll + Active Navigation Highlight
    
    2.5 - Tích hợp plugin
-    Trong đoạn code bạn gửi, phần tích hợp plugin chính là việc include file featured.php như một module mở rộng. Phần còn lại là xử lý truy vấn bài viết chuẩn WordPress. Nếu muốn tích hợp plugin khác, bạn cần 
-    gọi shortcode hoặc hàm của plugin tương ứng.
+   ScrollReveal
+   Khi cuộn xuống, các phần tử như tiêu đề, hình ảnh, và đoạn văn bản lần lượt hiện ra với hiệu ứng trượt nhẹ (slide) và mờ dần (fade in).
+   Đây là kiểu hiệu ứng đặc trưng của ScrollReveal.js
