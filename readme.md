@@ -30,6 +30,7 @@
    2.3 - Vai trò cụ thể của em trong dự án
     Thiết kế giao diện
    
-   2.4 - Tích hợp plugin
+   2.4 - Tích hợp Plugin Revolution Slider
+    Tạo các slider ảnh, video, hoặc nội dung tùy chỉnh với hiệu ứng chuyển động đẹp mắt.
+    Responsive với thiết bị di động, máy tính bảng và màn hình PC
    
-    Tích hợp Plugin Revolution Slider
