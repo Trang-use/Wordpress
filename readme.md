@@ -1,4 +1,4 @@
-1. Website tin tức
+### 1. Website tin tức
 
    1.1 Mô tả chức năng
    đây là website tin tức, người dùng có thể xem các bài viết mới nhất về nhiều chủ đề.
@@ -19,7 +19,7 @@
    Tích hợp plugin chính là đoạn include 'featured.php', dùng để thêm chức năng nổi bật (featured) vào trang — đóng vai trò như một plugin nội bộ hoặc module mở rộng
 
 
-2. Slide video chuyên mục
+### 2. Slide video chuyên mục
 
    2.1 Mô tả chức năng
     Video trình bày giao diện một nền tảng chia sẻ nội dung học tập dạng số, với chức năng chính là hiển thị và phân loại các bài học theo chuyên mục, mỗi chuyên mục gồm:
